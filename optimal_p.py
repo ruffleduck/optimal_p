@@ -1,7 +1,7 @@
 from math import factorial, ceil
 
-START = 2,11,0,0
-GOAL = 8,11,4,4
+START = 0,0,0,0
+GOAL = 12,11,8,7
 
 def n(e, ep, eo, c, cp, co):
     return ceil((2 ** eo) * (3 ** co) \
